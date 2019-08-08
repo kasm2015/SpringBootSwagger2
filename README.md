@@ -39,7 +39,7 @@ Step 4 : Run the application and access the url through postman to perform above
 <pre>
 <h2>Configuring Swagger2 in a Spring Boot application</h2>
 Step 1 : Add the below dependency in pom.xml file
-
+            <code>
             <!-- THIS DEPENDENCY WILL HELP TO CREATE AN API DOCUMENTATION BASED END POINTS AVAILABLE IN A APPLICATION -->
             <dependency>
                 <groupId>io.springfox</groupId>
@@ -53,7 +53,7 @@ Step 1 : Add the below dependency in pom.xml file
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>2.9.2</version>
             </dependency>
-
+            </code>
 Step 2 : Annotate a class with @EnableSwagger ( Indicates that Swagger support should be enabled)
          Either you can annotate the above annotation with SpringBoot main class or you can create a separate configuration class to define the properties of swagger2
 
